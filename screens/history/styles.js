@@ -23,6 +23,12 @@ export default (styles = StyleSheet.create({
   },
   followBtn: {
     elevation: 0,
+    shadowOffset: {
+      width: 0,
+      height:0
+    },
+    shadowOpacity: 0,
+    shadowRadius: 0,
     borderRadius: 25,
     width: "95%",
   },
